@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+   color: #fff; 
+   font-size: 21px;
+   line-height: 25px;
+}
+
+.top-menu {
+    background-color: #272635;
+    color: #d6d2da;
+    position: relative;
+}
+
+.top-container {
+    width: 1284px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+button {
+    background-color: transparent;
+    color: #d6d2da;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: none;
+}
+
+button:hover {
+    background-color: #d0dde448;
+}
+
+#navbar {
+    background-color: #141216;
+    color: hsl(200, 5%, 76%);
+    /* padding: 10px; */
+    margin-right: auto;
+    margin-left: auto;
+	position: sticky;
+	top: 0;
+}
+
+.nav-container {
+    width: 1284px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.nav-list {
+    /* display: flex; */
+    list-style-type: none;
+    
+}
+
+.nav-list li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #d6d2da;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+
+.nav-list a:hover {
+    width: 30%;
+    text-decoration: underline;
+    text-decoration-color: #279af1;
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+}
+
+.gg-logo {
+    width: 150px;
+    height: 30px;
+}
+
+span {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+input {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 11.5px 48px 11.5px 16px;
+    height: 40px;
+    width: 425px;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #272635;
+    border: none;
+}
+
+.searchbar {
+    padding: 12px 0;
+}
+
+.right-login {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: relative;
+    right: 30px;
+    top: 4px;
+}
+
+.steam-logo{
+    position: relative;
+    top: 5px;
+}
+
+.steam-login-link {
+    text-decoration: none;
+    color:#d6d2da;
+    padding: 10px;
+    background: #3d3743;
+    border-radius: 4px;
+}
+
+.steam-login-link:hover {
+    background-color: #635a6b;
+}
+
+.steam-login-link span {
+    font-size: 14px;
+}
+
+.content-container {
+    width: 1284px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+#mid-pictures {
+    background-color: #272635;
+}
+
+
+.two-picture-row {
+    padding: 30px 0px;
+}
+
+.left-mid-picture {
+    padding-right: 20px;
+}
+
+#mid-deals {
+    padding: 48px 0 64px;
+    background-color: #272635;
+}
+
+
+
+.mid-deals-row {
+    display: flex;
+}
+
+.deals-column {
+    padding: 0 10px;
+}
+
+.mid-deals-title {
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 16px;
+    color: #d6d2da;
+    display: inline-block;
+    flex-wrap: wrap;
+  
+}
+
+/* .mid-left-box {
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+} */
+
+.mid-game-box {
+    display: flex;
+    transition: background-color .2s;
+    background: #353347;
+    width: 392px;
+    height: 60px;
+    border: solid rgb(29, 27, 27) 1px;
+}
+
+.mid-game-box:hover {
+    background: #35334763
+}
+
+.full-box-link {
+    bottom: 0;
+    position: absolute;
+}
+
+.mid-text-wrap {
+    padding: 4px 4px 4px 12px;
+    flex-basis: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-text a {
+    color: #d6d2da;
+    font-weight: 700;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    line-height: 24px; 
+    color:rgba(255,255,255,.4)
+}
+
+.mid-time-store {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.game-price-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    color: #d6d2da;
+    font-weight: 900;
+    padding: 0 8px;
+}
+
+.browse-all {
+    display: block;
+    width: 100%;
+    background: #4f4d6a;
+    color: #dcdce5;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    box-shadow: 15px 4px solid #272635;
+}
+
+.browse-all:hover {
+    background: #58566e;
+    transition: background-color .5s;
+}
+
+#popular-games {
+    background-color: #272635;
+}
+
+.popular-games-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding-bottom: 16px;
+}
+
+.right-arrow {
+    transform: rotate(90deg);
+}
+
+#popular-games-list {
+    /* width: 100%; */
+    display: flex;
+
+}
+
+.popular-game-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #4f4d6a;
+    width: 184px;
+    margin-right: 24px;
+    margin-bottom: 14px;
+}
+
+.popular-image-wrap {
+    height: 260px;
+}
+
+.game-box-number {
+    position: relative;
+    bottom: 245px;
+    left: 130px;
+    background: rgba(9, 9, 12, 0.63);
+    border-radius: 50%;
+    color: #f4f5f6;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 14px 14px;
+}
+
+.game-info-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px 16px;
+    height: 120px;
+}
+
+.info-box-title{
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+.popular-game-price {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-top: auto;
+}
+
+.price-from {
+    color: #77848b;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 4px;
+}
+
+.popular-price {
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+.all-games-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 16px;
+  margin: 16px auto 0;
+  color: #dcdce5;
+  background: #4f4d6a;
+  border-radius: 4px;
+  width: 390px;
+}
+
+.all-games-link:hover {
+    background: #d0dde448;
+    transition: background-color .5s;
+}
+
+footer {
+    background-color: #272635fb;
+    
+}
+
+.footer-container {
+    padding: 36px 0;
+}
+
+.footer-row {
+    display: flex;
+    padding-top: 32px;
+}
+
+.tutorial-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.footer-row h4 {
+    font-family: "Exo 2",Lato,Lato2,sans-serif;
+    color: rgba(255,255,255,.8);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.tutorial-link-list{
+    padding-left: 0;
+}
+
+.tutorial-link-list a {
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 0;
+    background: 0 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.tutorial-link-list a:hover {
+    color: rgba(255,255,255);
+    transition: color .5s;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer-disclaimer {
+    margin-right: 120px;
+}
+
+.footer-disclaimer p{
+    display: block;
+    margin: 0;
+    color: rgba(255,255,255,.6);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 480px;
+}
+
+.bottom-footer-row {
+    display: flex;
+    padding-top: 48px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.bottom-footer-row a {
+    margin-right: 14px;
+    font-size: 14px;
+}
+
+
+.bottom-footer-row p {
+    color:rgba(255, 255, 255, 0.438);
+    font-size: 12px;
+}
+
+.bottom-footer-row-left {
+    text-align: center;
+    display: flex;
+}
+
+.bottom-footer-row-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-to-top {
+    padding: 0 20px;
+}
+
+.back-to-top a {
+    margin: 0;
+}
